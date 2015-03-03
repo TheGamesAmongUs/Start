@@ -1,0 +1,21 @@
+  Użytkownik:
+    ->ocenianie (gier)
+      ->skala 1-10
+      ->możliwość zaznaczenia "ulubione"
+      ->możlowiść zaznaczenia "chcę zagrać ponownie"
+    ->dodawanie gier do listy "chcę zagrać ponownie"
+      ->trzy stopniowa skala: "kiedyś", "szybko", "juz włączam"
+    ->dodawanie recenzji(komentarzy)
+      ->jeśli recenzja zostanie dodana, użytkownik nie może dodać kolejnej dla danej gry
+    
+  Administrator:
+    ->dodawanie administratorów
+    ->usuwanie/banowanie userów
+    ->ocenianie (gier)
+      ->skala 1-10
+      ->możliwość zaznaczenia "ulubione"
+      ->możlowiść zaznaczenia "chcę zagrać ponownie"
+    ->dodawanie gier do listy "chcę zagrać ponownie"
+      ->trzy stopniowa skala: "kiedyś", "szybko", "juz włączam"
+    ->dodawanie gier
+    ->dodawanie opisów
