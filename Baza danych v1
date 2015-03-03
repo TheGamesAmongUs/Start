@@ -1,0 +1,31 @@
+Tabelki, jakie być powinny:
+  gry
+    -ID.gry
+    -nazwa
+    -twórca
+    -producent
+    -ocena(średnia)
+    -opis
+    -komentarze
+  
+  użytkownik
+    -ID.usera
+    -login
+    -hasło
+    -admin [tak/nie]
+  
+  ocenione
+    -ID.oceny
+    -ID.gry
+    -ID.usera
+    -ocena
+  
+  komentarze
+    -ID.kom
+    -ID.usera
+    -ID.gry
+    -komentarz
+  
+  
+Ponadto: gry.ocena to średnia ocenione.ocena:
+jeśli: ocenione.ID.gry=gry.ID.gry to suma wartości ocenione.ocena / suma liczby ocenione.ocena
